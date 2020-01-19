@@ -1,0 +1,379 @@
+.top-section {
+  margin-bottom: 180px;
+}
+
+.info-list li:first-child {
+  border-top: 1px solid #cccccc;
+}
+.info-list li {
+  font-size: 18px;
+  position: relative;
+  padding: 18px 0;
+  border-bottom: 1px solid #cccccc;
+}
+.info-list .active {
+  color: black;
+}
+.info-list .red-line {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  border: 2px solid #fa5757;
+  width: 43%;
+}
+
+@media only screen and (min-width: 768px) {
+  .top-section {
+    margin-bottom: 50px;
+  }
+
+  .container.mid-section {
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+  .container.mid-section p {
+    margin: 0;
+    width: 36vw;
+  }
+
+  .info-list {
+    display: flex;
+  }
+  .info-list li:first-child {
+    border-top: none;
+  }
+  .info-list li {
+    width: 250px;
+    text-align: center;
+  }
+  .info-list .red-line {
+    width: 100%;
+  }
+}
+.img-feat {
+  width: 315px;
+  padding-bottom: 35px;
+}
+
+.new-img {
+  padding-bottom: 0;
+}
+
+.features-section {
+  margin-bottom: 150px;
+}
+.features-section .image-box {
+  height: 300px;
+}
+.features-section .image-box img:not(.active) {
+  display: none;
+}
+.features-section .r-curved {
+  width: 82%;
+  height: 67%;
+  border-radius: 0 100px 100px 0;
+}
+.features-section .container {
+  margin-top: 40px;
+}
+.features-section .container:not(.active) {
+  display: none;
+}
+.features-section .btn {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .features-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .features-section .image-box {
+    height: 21em;
+    width: 48.5vw;
+  }
+  .features-section .r-curved {
+    width: 92%;
+    height: 82%;
+    border-radius: 0 150px 150px 0;
+  }
+  .features-section .img-feat {
+    top: 0;
+    right: 0;
+    left: auto;
+    width: auto;
+    height: 80%;
+  }
+  .features-section .container {
+    width: 41.5vw;
+    text-align: left;
+  }
+  .features-section .container p {
+    padding-right: 80px;
+  }
+  .features-section .btn {
+    display: block;
+    width: 78px;
+  }
+  .features-section .add-marg {
+    margin-bottom: 0px;
+  }
+  .features-section .new-img {
+    width: 61%;
+    height: 90%;
+  }
+}
+.card-section {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .center {
+    margin: 0 auto;
+  }
+
+  .card-section {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .card-section .card {
+    margin: 15px;
+  }
+  .card-section .card:nth-child(2) {
+    margin-top: 56px;
+  }
+  .card-section .card:nth-child(3) {
+    margin-top: 97px;
+  }
+}
+.questions {
+  margin-top: 42px;
+  padding: 0 25px;
+}
+.questions div {
+  position: relative;
+  padding: 18px 0 11px 0;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+}
+.questions p {
+  display: none;
+  padding: 15px 0 7px 0;
+  line-height: 28px;
+}
+.questions h4 {
+  position: relative;
+  margin: 12px 0;
+  font-weight: normal;
+  z-index: 5;
+}
+.questions svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 30px 0;
+  transition-duration: 0.25s;
+}
+.questions h4:hover {
+  cursor: pointer;
+}
+.questions .open svg {
+  transform: rotate(180deg);
+}
+.questions .open svg path {
+  stroke: #fa5757;
+}
+.questions .open p {
+  display: block;
+}
+.questions .btn {
+  margin: 50px auto 120px auto;
+  width: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .questions {
+    width: 38.5vw;
+  }
+  .questions p {
+    font-size: 16px;
+  }
+  .questions h4:hover {
+    color: #fa5757;
+  }
+}
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  text-align: center;
+}
+footer h2 {
+  margin-bottom: 35px;
+  width: 300px;
+}
+footer span {
+  margin: 55px auto 0 auto;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 100;
+  font-size: 12px;
+}
+footer form, footer input, footer button {
+  width: 310px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 14.5px;
+  border: none;
+  border-radius: 5px;
+}
+footer input {
+  padding: 11px 16px;
+  border: 2px solid white;
+  border-bottom: 0;
+}
+footer .error input {
+  border: 2px solid #fa5757;
+  border-radius: 5px 5px 0 0;
+  border-bottom: 0;
+}
+footer button {
+  margin: 15px 0 30px 0;
+  padding: 16px 0;
+  letter-spacing: 0.5px;
+}
+footer input::placeholder {
+  color: #cccccc;
+}
+footer .dark-blue-bg {
+  position: relative;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .menu-icons {
+  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  footer h2 {
+    font-size: 1.75em;
+    width: 405px;
+    line-height: 41px;
+  }
+  footer span {
+    margin-top: 35px;
+  }
+  footer form {
+    display: flex;
+    width: 440px;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  footer label:first-child {
+    position: relative;
+    width: 67%;
+  }
+  footer input {
+    width: 100%;
+  }
+  footer button {
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    border: 2px solid #fa5757;
+  }
+  footer button:hover {
+    background-color: white;
+    color: #fa5757;
+    cursor: pointer;
+  }
+
+  .error-msg {
+    position: absolute;
+  }
+}
+label.error {
+  border-radius: 5px 5px 0 0;
+  background-color: #fa5757;
+}
+label.error input {
+  background-image: url("./images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+.error-msg {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 0 0 5px 5px;
+  padding: 5px 12px;
+  font-style: italic;
+  width: 100%;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.features-footer {
+  margin: 26px 0;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.features-footer li {
+  margin: 14px 0;
+  text-align: center;
+  font-size: 13.5px;
+}
+.features-footer li:hover {
+  color: white;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  footer .dark-blue-bg {
+    flex-direction: row;
+    padding: 1.9vw 10.3vw;
+  }
+
+  .features-footer {
+    margin: 0 46px;
+    display: flex;
+    flex-direction: row;
+  }
+  .features-footer li {
+    margin: 14px 21px;
+    font-size: 13px;
+  }
+  .features-footer li:hover {
+    color: #fa5757;
+  }
+
+  .menu-icons {
+    margin: 0 0 0 auto;
+  }
+  .menu-icons svg:hover path {
+    fill: #fa5757;
+  }
+}
+
+/*# sourceMappingURL=style2.css.map */
