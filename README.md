@@ -12,6 +12,6 @@ You will find all the required assets in the `/images` folder. The assets are al
 
 There is also a `style-guide.md` file, which contains the information you'll need, such as color palette and fonts.
 
-![Design preview for the Bookmark landing page coding challenge](https://github.com/frontendmentorio/bookmark-landing-page/tree/master/design)
+[Design preview for the Bookmark landing page coding challenge](https://github.com/frontendmentorio/bookmark-landing-page/tree/master/design)
 
 **Have fun building!** 🚀
