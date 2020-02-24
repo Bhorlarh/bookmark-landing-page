@@ -130,6 +130,8 @@ p {
 // navigation bar
 header {
   padding: 30px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .nav-bar {
