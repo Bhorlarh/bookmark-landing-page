@@ -202,7 +202,7 @@ header.active-menu .logo-banner {
   fill: #252b46;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1065px) {
   body {
     font-size: 18px;
   }
@@ -290,7 +290,7 @@ header.active-menu .logo-banner {
   background-color: #f2f2f2;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1065px) {
   .top-section {
     display: flex;
     flex-direction: row-reverse;

@@ -236,7 +236,7 @@ header.active-menu {
 }
 
 // styling nav bar on bigger viewports
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1065px) {
   body {
     font-size: 18px;
   }
@@ -336,7 +336,7 @@ header.active-menu {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1065px) {
   .top-section {
     display: flex;
     flex-direction: row-reverse;
